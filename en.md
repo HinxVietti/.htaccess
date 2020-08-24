@@ -6,8 +6,6 @@
 
 [TOC]
 
-[TOC]
-
 ### 1. What is .htaccess file ?
 
 .htaccess is a configuration file for use on web servers running the Apache Web Server software. When a .htaccess file is placed in a directory which is in turn 'loaded via the Apache Web Server', then the .htaccess file is detected and executed by the Apache Web Server software. These .htaccess files can be used to alter the configuration of the Apache Web Server software to enable/disable additional functionality and features that the Apache Web Server software has to offer. These facilities include basic redirect functionality, for instance if a 404 file not found error occurs, or for more advanced functions such as content password protection or image hot link prevention.
@@ -307,9 +305,9 @@ MIME types set what a file is, or rather what file extensions refer to what file
 
 To setup a MIME type, create a .htaccess file following the main instructions and guidance which includes the following text:
 
-
-
-*AddType text/html htm0*
+```
+AddType text/html htm0
+```
 
 'AddType' specifies that you are adding a MIME type. The second part is the MIME type, in this case text or HTML, and the final part is the file extension, in this example 'htm0'.
 
