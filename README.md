@@ -6,7 +6,7 @@
 
 [TOC]
 
-
+[TOC]
 
 ### 1. What is .htaccess file ?
 
